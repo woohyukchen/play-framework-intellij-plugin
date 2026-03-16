@@ -5,7 +5,7 @@ plugins {
     id("org.jetbrains.intellij.platform") version "2.12.0"
 }
 
-group = "com.intellij"
+group = "io.github.woohyukchen"
 version = "2025.3.3"
 
 providers.gradleProperty("playBuildDir").orNull?.let {
@@ -55,6 +55,7 @@ intellijPlatform {
                   <li>Replaced the removed PrattTokenType usage for newer IntelliJ Platform builds.</li>
                   <li>Fixed a 2025.3 runtime ClassCastException in persistence integration.</li>
                   <li>Added regression coverage for routes navigation and non-Play file safety boundaries.</li>
+                  <li>Published as an unofficial community-maintained fork, independent from JetBrains releases.</li>
                 </ul>
               </body>
             </html>

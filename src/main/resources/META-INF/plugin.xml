@@ -1,14 +1,18 @@
 <idea-plugin package="com.intellij.play">
 
-  <id>com.intellij.play</id>
-  <name>Play Framework</name>
+  <id>io.github.woohyukchen.play</id>
+  <name>Play Framework (Unofficial)</name>
 
   <description><![CDATA[
-Supports building applications with the <a href="https://www.playframework.com/">Play</a> Web framework 1.0.
+Supports building applications with the <a href="https://www.playframework.com/">Play</a> Web framework 1.x.
+<br/>
+<br/>
+This plugin is an unofficial community-maintained fork of the obsolete JetBrains Play plugin,
+updated for newer IntelliJ IDEA Ultimate builds.
   ]]></description>
 
   <category>JVM Frameworks</category>
-  <vendor>JetBrains</vendor>
+  <vendor email="woohyukchen@gmail.com" url="https://github.com/woohyukchen/play-framework-intellij-plugin">woohyukchen</vendor>
 
   <dependencies>
     <plugin id="org.intellij.groovy"/>
